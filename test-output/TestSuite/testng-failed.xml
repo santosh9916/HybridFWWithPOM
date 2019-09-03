@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [TestSuite]" parallel="none">
+  <test name="Test(failed)" parallel="none">
+    <classes>
+      <class name="com.lma.testScriptsPages.LogOutPageTest">
+        <methods>
+          <include name="setup"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.lma.testScriptsPages.LogOutPageTest -->
+      <class name="com.lma.testScriptsPages.LoginPageTest">
+        <methods>
+          <include name="teardown"/>
+          <include name="loginToAppTest"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.lma.testScriptsPages.LoginPageTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [TestSuite] -->

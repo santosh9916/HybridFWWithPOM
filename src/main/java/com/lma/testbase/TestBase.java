@@ -42,7 +42,7 @@ public class TestBase {
 		try {
 			prop = new Properties();
 			FileInputStream ip = new FileInputStream(
-					"/Users/santoshbihari.m/eclipse-workspace/FlipKart/src/main/java/com/lma"
+					"/Users/santoshbihari.m/eclipse-workspace/HybridFWWithPOM/src/main/java/com/lma"
 							+ "/config/config.properties");
 			prop.load(ip);
 		} catch (FileNotFoundException e) {

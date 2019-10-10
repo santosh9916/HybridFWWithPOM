@@ -35,7 +35,7 @@ public class LoginPageTest extends TestBase {
 		return data;
 	}
 
-	@Test(priority = 1, dataProvider="getLoginPageTestData", invocationCount=1)
+	@Test(priority = 1, dataProvider="getLoginPageTestData")//, invocationCount=10
 	public void loginToAppTest(String username, String password) {
 		homePage = loginpage.login(username, password);
 		String userName = loginpage.verifyLoggedUserName();

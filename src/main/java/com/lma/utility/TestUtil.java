@@ -24,7 +24,7 @@ public class TestUtil extends TestBase {
 	public static Workbook workbook;
 	public static Sheet sheet;
 	
-	public static String TESTDATA_SHEET_PATH = "/Users/santoshbihari.m/eclipse-workspace/FlipKart/src/main/java/com/lma/testdata/FlipKartTestData.xls";
+	public static String TESTDATA_SHEET_PATH = "/Users/santoshbihari.m/eclipse-workspace/HybridFWWithPOM/src/main/java/com/lma/testdata/FlipKartTestData.xls";
 	public static long PAGE_LOAD_TIMEOUT = 20;
 	public static long IMPLICIT_WAIT = 10;
 
